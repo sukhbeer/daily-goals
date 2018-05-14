@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="TodayActivity"
     android:layout_width = "fill_parent"
@@ -23,7 +23,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/name"
-                android:text="Task :"
+                android:text="@string/task"
                 android:fontFamily="sans-serif-smallcaps"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
@@ -84,7 +84,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/from"
-                android:text="From :"
+                android:text="@string/from"
                 android:fontFamily="sans-serif-smallcaps"
                 android:layout_gravity="center_vertical"
                 android:layout_marginTop="10dp"
@@ -96,8 +96,9 @@
                 android:id = "@+id/simpleTimePicker"
                 android:layout_width = "wrap_content"
                 android:layout_height = "wrap_content"
-                android:paddingLeft="38dp"
-                android:timePickerMode ="spinner"  />
+                android:paddingStart="38dp"
+                android:timePickerMode ="spinner"
+                tools:ignore="RtlSymmetry" />
 
         </LinearLayout>
         <View
@@ -116,7 +117,7 @@
                 android:layout_width = "wrap_content"
                 android:layout_height = "wrap_content"
                 android:layout_gravity="center_vertical"
-                android:text = "Notify at : "
+                android:text = "@string/notify_at"
                 android:fontFamily="sans-serif-smallcaps"
                 android:textSize="16sp"
                 android:layout_marginTop="10dp"

@@ -12,7 +12,7 @@
     <string name="lunch">LUNCH</string>
     <string name="games">GAMES</string>
     <string name="dinner">DINNER</string>
-
+    <string name="notifyat">Notify at :</string>
     <!-- Strings for titles of each page of the welcome screen -->
     <string name="title_welcome">Welcome to Daily Goals</string>
     <string name="title_life_guide">Life Guide and Assistant</string>
@@ -35,4 +35,9 @@
     <string name="goals_missed">GOALS MISSED</string>
     <string name="goals_completed">GOALS COMPLETED</string>
     <string name="your_achievements">YOUR ACHIEVEMENTS</string>
+    <string name="notify_at">Notify at :</string>
+    <string name="from">From :</string>
+    <string name="task">Task :</string>
+    <string name="today">TODAY</string>
+    <string name="breakfast">BREAKFAST</string>
 </resources>

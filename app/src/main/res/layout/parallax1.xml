@@ -20,7 +20,8 @@
         android:layout_alignLeft="@+id/imageView3"
         android:layout_alignStart="@+id/imageView3"
         android:layout_below="@+id/imageView2"
-        android:src="@drawable/ic_goals" />
+        android:src="@drawable/ic_goals"
+        tools:ignore="RtlHardcoded" />
 
     <ImageView
         android:id="@+id/imageView"

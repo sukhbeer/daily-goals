@@ -15,7 +15,8 @@
         android:layout_marginLeft="11dp"
         android:layout_marginStart="11dp"
         android:layout_marginTop="16dp"
-        android:src="@drawable/ic_guide" />
+        android:src="@drawable/ic_guide"
+        tools:ignore="RtlHardcoded" />
 
     <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/compass2"
@@ -26,7 +27,8 @@
         android:layout_alignTop="@+id/compass4"
         android:layout_marginLeft="24dp"
         android:layout_marginStart="24dp"
-        android:src="@drawable/ic_guide" />
+        android:src="@drawable/ic_guide"
+        tools:ignore="RtlHardcoded" />
 
     <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/compass3"
@@ -35,7 +37,8 @@
         android:layout_below="@+id/compass2"
         android:layout_toEndOf="@+id/compass2"
         android:layout_toRightOf="@+id/compass2"
-        android:src="@drawable/ic_guide" />
+        android:src="@drawable/ic_guide"
+        tools:ignore="RtlHardcoded" />
 
     <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/compass4"
@@ -45,7 +48,8 @@
         android:layout_marginTop="132dp"
         android:layout_toEndOf="@+id/compass3"
         android:layout_toRightOf="@+id/compass3"
-        android:src="@drawable/ic_guide" />
+        android:src="@drawable/ic_guide"
+        tools:ignore="RtlHardcoded" />
 
     <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/compass5"
@@ -54,5 +58,6 @@
         android:layout_above="@+id/compass2"
         android:layout_toEndOf="@+id/compass2"
         android:layout_toRightOf="@+id/compass2"
-        android:src="@drawable/ic_guide" />
+        android:src="@drawable/ic_guide"
+        tools:ignore="RtlHardcoded" />
 </RelativeLayout>
